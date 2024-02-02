@@ -21,7 +21,6 @@
         "rating": 5.0,
         "comment": "Incredible language model, exceeded my expectations!"
       }
-      // Additional reviews can be added here
     ],
     "user": "user456",
     "createdAt": "2024-02-02T12:00:00.000Z"
@@ -47,7 +46,6 @@
         "rating": 4.5,
         "comment": "Great for complex language tasks, highly recommended!"
       }
-      // Additional reviews can be added here
     ],
     "user": "user123",
     "createdAt": "2024-02-02T12:30:00.000Z"
