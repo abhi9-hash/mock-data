@@ -1,0 +1,57 @@
+{
+  "products":[
+  {
+    "name": "QuantumLingua AI-5000",
+    "description": "An advanced language model for natural language processing tasks.",
+    "price": 1999.99,
+    "ratings": 4.9,
+    "images": [
+      {
+        "public_id": "ql-5000-img1",
+        "url": "https://example.com/images/quantumlingua_ai_5000.jpg"
+      }
+    ],
+    "category": "Artificial Intelligence",
+    "Stock": 20,
+    "numOfReviews": 15,
+    "reviews": [
+      {
+        "user": "user123",
+        "name": "Alex Johnson",
+        "rating": 5.0,
+        "comment": "Incredible language model, exceeded my expectations!"
+      }
+      // Additional reviews can be added here
+    ],
+    "user": "user456",
+    "createdAt": "2024-02-02T12:00:00.000Z"
+  },
+  {
+    "name": "NeuroLexicon Pro-X",
+    "description": "Empower your applications with state-of-the-art language understanding.",
+    "price": 2499.99,
+    "ratings": 4.8,
+    "images": [
+      {
+        "public_id": "nl-prox-img1",
+        "url": "https://example.com/images/neurolexicon_pro_x.jpg"
+      }
+    ],
+    "category": "Machine Learning",
+    "Stock": 15,
+    "numOfReviews": 12,
+    "reviews": [
+      {
+        "user": "user789",
+        "name": "Sophia Carter",
+        "rating": 4.5,
+        "comment": "Great for complex language tasks, highly recommended!"
+      }
+      // Additional reviews can be added here
+    ],
+    "user": "user123",
+    "createdAt": "2024-02-02T12:30:00.000Z"
+  }
+]
+
+}
