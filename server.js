@@ -1,6 +1,4 @@
 const app = require("./app");
-const dotenv = require("dotenv");
-
 //  Handling Uncaught Exception
 process.on("uncaughtException", (err) => {
   console.log(`Error: ${err.message}`);
@@ -8,14 +6,12 @@ process.on("uncaughtException", (err) => {
   process.exit(1);
 });
 
-dotenv.config({ path: "backend/config/config.env" });
-
-const port = 4000 || process.env.PORT;
+const port = process.env.PORT || 4000 ;
 
 console.log({ port });
 
 const server = app.listen(port, () => {
-  console.log(`Server is working on http://localhost:4000`);
+  console.log(`Server is working on http://localhost:${port}`);
 });
 
 // Unhandled Promise Rejection
