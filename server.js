@@ -1,5 +1,5 @@
 const app = require("./app");
-const dotenv  = require('dotenv')
+const dotenv = require("dotenv");
 //  Handling Uncaught Exception
 process.on("uncaughtException", (err) => {
   console.log(`Error: ${err.message}`);
@@ -7,9 +7,9 @@ process.on("uncaughtException", (err) => {
   process.exit(1);
 });
 
-dotenv.config('./env')
+dotenv.config({ path: "./env" });
 
-const port = process.env.PORT || 4000 ;
+const port = process.env.PORT || 4000;
 
 console.log({ port });
 
